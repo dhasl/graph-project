@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graph-App", "graph-App\graph-App.vcxproj", "{A55E053D-11C9-B9B3-5A07-6B59C6B09708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "graph-Core", "graph-Core", "{9445C39D-803E-E2EF-A970-C77495C8C1FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graph-Core", "graph-Core\graph-Core.vcxproj", "{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Dist|x64 = Dist|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55E053D-11C9-B9B3-5A07-6B59C6B09708}.Debug|x64.ActiveCfg = Debug|x64
+		{A55E053D-11C9-B9B3-5A07-6B59C6B09708}.Debug|x64.Build.0 = Debug|x64
+		{A55E053D-11C9-B9B3-5A07-6B59C6B09708}.Dist|x64.ActiveCfg = Dist|x64
+		{A55E053D-11C9-B9B3-5A07-6B59C6B09708}.Dist|x64.Build.0 = Dist|x64
+		{A55E053D-11C9-B9B3-5A07-6B59C6B09708}.Release|x64.ActiveCfg = Release|x64
+		{A55E053D-11C9-B9B3-5A07-6B59C6B09708}.Release|x64.Build.0 = Release|x64
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}.Debug|x64.ActiveCfg = Debug|x64
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}.Debug|x64.Build.0 = Debug|x64
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}.Dist|x64.ActiveCfg = Dist|x64
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}.Dist|x64.Build.0 = Dist|x64
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}.Release|x64.ActiveCfg = Release|x64
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D48B2DD-5900-F42A-C207-CD86AEDE8E1B} = {9445C39D-803E-E2EF-A970-C77495C8C1FB}
+	EndGlobalSection
+EndGlobal
