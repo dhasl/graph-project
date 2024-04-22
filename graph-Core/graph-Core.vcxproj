@@ -139,9 +139,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Source\graph-Core\graph-Core.h" />
+    <ClInclude Include="Source\graph-Core\GraphGenerator.h" />
+    <ClInclude Include="Source\graph-Core\Node.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\graph-Core\graph-Core.cpp" />
+    <ClCompile Include="Source\graph-Core\GraphGenerator.cpp" />
+    <ClCompile Include="Source\graph-Core\Node.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
